@@ -1,10 +1,12 @@
 @charset "UTF-8";
 :root{
   --paper:#f8f7f3;
+  --surface:#efede8;
+  --surface-deep:#e9e5df;
   --ink:#262923;
   --muted:#60645c;
   --accent:#a13b2e;
-  --line:#dcded4;
+  --line:#dedad3;
   --note:#f0eee5;
   --sans:"Segoe UI","Helvetica Neue",Arial,sans-serif;
   --serif:Georgia,"Times New Roman",serif
@@ -374,8 +376,8 @@ h2 .serif{
 }
 /* Projects */
 .projects-section{
-  background:#eeefe9;
-  border-block:1px solid #e1e3d9
+  background:var(--surface);
+  border-block:1px solid var(--line)
 }
 .section-heading{
   display:flex;
@@ -400,7 +402,7 @@ h2 .serif{
 }
 .project-card{
   background:var(--paper);
-  border:1px solid #d9ddd2
+  border:1px solid var(--line)
 }
 .project-visual{
   position:relative;
@@ -706,8 +708,8 @@ details[open] .details-plus::after{
 /* Contact and footer */
 .contact-section{
   padding-block:76px;
-  background:#e8ecdf;
-  border-block:1px solid #d8dece
+  background:var(--surface-deep);
+  border-block:1px solid var(--line)
 }
 .contact-inner{
   display:grid;
@@ -722,7 +724,7 @@ details[open] .details-plus::after{
   font-size:54px
 }
 .contact-inner>div>p:last-child{
-  color:#55604d;
+  color:#5f5a53;
   font-size:13px;
   max-width:355px;
   margin-top:24px
@@ -736,7 +738,7 @@ details[open] .details-plus::after{
   align-items:center;
   gap:20px;
   padding-bottom:16px;
-  border-bottom:1px solid #bfc8b1;
+  border-bottom:1px solid #c9c1b7;
   font-size:clamp(15px,1.9vw,24px);
   letter-spacing:-.7px;
   font-weight:500
