@@ -12,6 +12,7 @@ Open `index.html` in a browser, or serve this folder with any static web server.
 - `styles.css`: responsive light theme and reduced-motion support.
 - `script.js`: optional copy-email button, available in secure browser contexts.
 - `favicon.svg`: site icon.
+- `assets/cybersecurity-wolf.png`: generated transparent wolf-and-laptop illustration for the hero card.
 - `assets/goodnight-scholars-mark.png`: supplied Goodnight Scholars logo; CSS crops the blank side margins in the About section.
 - `assets/wayahead-logo.svg`: original app logo from `https://findawayahead.us/icons/wayahead.svg`; the WayAhead project links to the live app.
 

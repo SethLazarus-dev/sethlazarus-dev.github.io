@@ -245,32 +245,17 @@ h1{
   line-height:1;
   color:var(--accent)
 }
-.orbital-mark{
-  position:relative;
-  color:#7a856b;
-  margin-block:13px 11px
+.cybersecurity-mark{
+  margin-block:18px 16px
 }
-.orbital-mark svg{
-  width:100%
-}
-.diagram-label{
-  position:absolute;
-  font-family:var(--serif);
-  font-style:italic;
-  color:#68735c;
-  font-size:14px
-}
-.label-one{
-  top:14%;
-  left:2%
-}
-.label-two{
-  bottom:12%;
-  right:0
+.cybersecurity-mark img{
+  display:block;
+  width:100%;
+  height:auto
 }
 .note-bottom{
   padding-top:20px;
-  border-top:1px solid #d7d9cb
+  border-top:1px solid var(--line)
 }
 .note-bottom>span:first-child{
   font-size:14px;
@@ -893,7 +878,11 @@ details[open] .details-plus::after{
     font-size:22px
   }
   .hero-note{
-    display:none
+    display:block;
+    width:min(100%,320px);
+    justify-self:center;
+    transform:none;
+    margin-top:24px
   }
   .hero-actions{
     gap:26px
