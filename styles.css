@@ -450,6 +450,15 @@ h2 .serif{
   font-family:var(--serif);
   font-size:24px
 }
+.wayahead-brand{
+  display:flex;
+  align-items:center;
+  gap:12px
+}
+.wayahead-brand img{
+  display:block;
+  flex-shrink:0
+}
 .concept-label{
   position:absolute;
   right:13px;
@@ -552,6 +561,10 @@ h2 .serif{
 }
 .project-details{
   border-top:1px solid var(--line)
+}
+.project-live-link{
+  color:var(--accent);
+  margin-bottom:18px
 }
 .project-details summary{
   list-style:none;
