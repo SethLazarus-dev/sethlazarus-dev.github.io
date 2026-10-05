@@ -355,9 +355,12 @@ h2 .serif{
 }
 .scholar-logo{
   display:block;
-  width:180px;
+  width:64px;
   max-width:100%;
-  height:auto;
+  height:112px;
+  /* Crop the supplied image's blank side margins without stretching the mark. */
+  object-fit:cover;
+  object-position:center;
   flex-shrink:0
 }
 .scholar-note p{
