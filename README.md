@@ -1,6 +1,6 @@
 # Seth Lazarus — Portfolio
 
-A responsive portfolio for an NC State computer science student and Goodnight Scholar. Built with HTML, CSS, and a small JavaScript enhancement, with no build step or external dependencies.
+A responsive portfolio for an NC State Goodnight Scholar studying computer science with a concentration in cybersecurity and a minor in business. Built with HTML, CSS, and a small JavaScript enhancement, with no build step or external dependencies.
 
 ## Preview locally
 
