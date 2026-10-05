@@ -408,8 +408,8 @@ h2 .serif{
   overflow:hidden
 }
 .map-visual{
-  background:#e0e6dc;
-  color:#394e3d
+  background:#eeeeee;
+  color:#222222
 }
 .visual-caption{
   position:absolute;
@@ -427,11 +427,11 @@ h2 .serif{
   opacity:.9
 }
 .map-road{
-  stroke:#b7c6b4;
+  stroke:#c9c9c9;
   stroke-width:2
 }
 .map-route{
-  stroke:#526e53;
+  stroke:#777777;
   stroke-width:3;
   stroke-linecap:round;
   stroke-linejoin:round;
@@ -459,12 +459,15 @@ h2 .serif{
   display:block;
   flex-shrink:0
 }
-.concept-label{
-  position:absolute;
-  right:13px;
-  bottom:8px;
-  font-size:8px;
-  opacity:.8
+.wayahead-brand span{
+  margin-left:0;
+  font:inherit
+}
+.wayahead-wordmark{
+  color:#000000
+}
+.wayahead-ahead{
+  color:#cc0000
 }
 .order-visual{
   background:#ece2d8;
