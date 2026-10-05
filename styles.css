@@ -99,12 +99,16 @@ svg{
   gap:32px
 }
 .wordmark{
-  font-size:34px;
-  font-weight:700;
-  letter-spacing:-3px;
-  padding-right:20px
+  display:inline-flex;
+  align-items:center;
+  flex-shrink:0
 }
-.wordmark span,.footer-name span{
+.wordmark img{
+  display:block;
+  width:44px;
+  height:44px
+}
+.footer-name span{
   color:var(--accent)
 }
 nav{
@@ -834,8 +838,7 @@ details[open] .details-plus::after{
     gap:18px
   }
   .wordmark{
-    padding:0;
-    font-size:29px
+    padding:0
   }
   nav{
     gap:20px;
