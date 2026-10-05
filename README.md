@@ -12,6 +12,7 @@ Open `index.html` in a browser, or serve this folder with any static web server.
 - `styles.css`: responsive light theme and reduced-motion support.
 - `script.js`: optional copy-email button, available in secure browser contexts.
 - `favicon.svg`: site icon.
+- `assets/goodnight-scholars-logo.png`: supplied Goodnight Scholars logo used in the About section.
 
 ## GitHub Pages
 

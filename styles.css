@@ -347,16 +347,18 @@ h2 .serif{
 }
 .scholar-note{
   display:flex;
-  align-items:flex-start;
-  gap:17px;
+  align-items:center;
+  gap:24px;
   border-top:1px solid var(--line);
   margin-top:32px;
   padding-top:24px
 }
-.scholar-icon{
-  font-size:30px;
-  color:var(--accent);
-  line-height:1
+.scholar-logo{
+  display:block;
+  width:180px;
+  max-width:100%;
+  height:auto;
+  flex-shrink:0
 }
 .scholar-note p{
   font-size:12px;
@@ -819,6 +821,11 @@ details[open] .details-plus::after{
   }
 }
 @media(max-width:760px){
+  .scholar-note{
+    flex-direction:column;
+    align-items:flex-start;
+    gap:18px
+  }
   html{
     scroll-padding-top:28px
   }
